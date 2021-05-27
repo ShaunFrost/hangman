@@ -30,7 +30,7 @@ const Result = ({ selectedCharacter, correctLetters, wrongLetters, setPlaying, p
                 <h2>{message}</h2>
                 <h3>{reveal}</h3>
                 <div className = "anime-image">
-                    <img src={`hangman/images/${selectedCharacter}.png`} />
+                    <img src={`images/${selectedCharacter}.png`} />
                 </div>
                 <button onClick={playAgain}>Go Again</button>
             </div>
